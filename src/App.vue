@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { RouterView } from 'vue-router'
 import { Button } from '@/components/ui/button'
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert'
 import {
@@ -18,10 +19,15 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
+
+import TheTest from '@/components/TheTest.vue'
 </script>
 
 <template>
   <Button>Click me</Button>
+
+  <router-link to="/">Home</router-link>
+  <router-link to="/about">About</router-link>
 
   <Alert>
     <AlertTitle>Heads up!</AlertTitle>
@@ -77,7 +83,11 @@ import {
         Card Footer
       </CardFooter>
     </Card>
+
+    <TheTest />
   </div>
+
+  <RouterView />
 
 
 
