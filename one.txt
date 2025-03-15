@@ -11,4 +11,9 @@ klkmjjjll;fhasdjkfhajksdhfkjahsdjkfhaskjdhfjkahsdjkfdafdsfasdfasdfasdfasdfasdfas
 
 test-4
 
+<<<<<<< HEAD
 update something
+=======
+
+update from main branch!
+>>>>>>> edbb0b85270cdff7eecee44d3f66dcbc2d6f43ca
